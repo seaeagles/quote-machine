@@ -7,6 +7,29 @@
 
 
 .card {
+  display: flex;
+  flex-direction: column;
   padding: 2em;
+  border: 1px solid silver;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px silver;
+}
+
+/* .card button {
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.card a {
+  align-self: flex-start;
+  justify-self: flex-start;
+} */
+
+.card-footer {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
 }
 

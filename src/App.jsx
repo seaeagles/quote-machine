@@ -3,7 +3,7 @@ import './App.css'
 import { quotes as myQuotes } from './data/quotes'
 
 function App() {
-  const [index, setIndex] = useState(1)
+  const [index, setIndex] = useState(0)
   const [quotes, setQuotes] = useState(myQuotes)
 
 const handleClick = () => {
